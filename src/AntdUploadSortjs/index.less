@@ -1,0 +1,71 @@
+.UploadRender {
+  .upload-content:hover {
+    border: 1px solid #d9d9d9;
+  }
+  .border {
+    border: 1px solid #d9d9d9;
+  }
+  .upload-content {
+    padding: 6px 8px;
+
+    margin: 5px 2px;
+    display: flex;
+    align-items: center;
+
+    .left {
+      display: flex;
+      align-items: center;
+      flex: auto;
+      overflow: hidden;
+    }
+    // .icon {
+    //   width: 16px;
+    //   height: 16px;
+    // }
+    .icon {
+      width: 16px;
+      height: 16px;
+      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAq9JREFUWEdjZGBgYGYYQMAIc4BI0AOxv+wiorRwy98/7598Wi37EZvZcAcIRn7RZmJiZKeFA/78//324zKBh1RzwPpKDh9lCUYjbk5GyfdfGG4dv/HvYO6sH+dwOZ5qDrDWYuOZns5cJCXM6INu2YNXDMtNir71Y3ME1Rxwpo+rUEGMIRJkycdvDGfvvfh3UEmCyZ6fi8EYJHb9yb/ZthU/ZqM7gioOAPl+YxXLPpDh5+/963Ot+7ECZtHhDo5UTRmm1L//GD6Lx31zpokDJqdxGEXaMc0AWRLU8cf/6LVfX2AWxTsxS/YmsW8E8Sds+hXTsurPLWRHkBUCXOzMkpzsrMZMjAySIMOyPRnVcnwY7W8////cr+X/FnRfproxRXCyMfDuOvd/y41n/58jyzMzMHxjYGSAZ8N/v39svD6L+yJIDc5sKMrPkcrKzJQKM8jPjIGhJYaB4fRtBobkyZRl1v///1+8MoUJnG5wOkBMgLOOhQmR2qnpAAYGhgeXJzOqDH0H8HJCouLzd5KjhDohsKMBYrEHlCbBGZQ7QEqIgQHZAc/ekWA9NdLAqANGQ2A0BOgeAo66DAwTUxkYQPkdVPDAHAAqBUF85NLw75+fDF8/vmT4/+8v1sKBiYl544Nl8sEk1QUgxaCCB2QxqEaUFoawlxxgYOhah2rPx9f3Gb5/eYOjZPp/8cf3G86f98Z/INkBoFAAVcmwOgAUGjVLGBjO3CHWAaiWozhAKPKzBiMTExfMKPTqGCYOsjzGARIVG09i9yT2EMC0HMUBfKGP+RlZeQVgRsoI8XUzMTIGkVTCQxVjOgC75SgOQLdIN+fvXAZGpnjKHYDbcjo4AL/lNHbAa5TUjisk4W1CdAU6WT/9GZnZesmJgs9vH118+/JAMiyr4TMDpwPIsZgcPQDMENWQ3m2PugAAAABJRU5ErkJggg==');
+      background-size: 100% 100%;
+    }
+    .accNames {
+      margin-left: 10px;
+      text-decoration-line: underline;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-size: 14px;
+    }
+    .eye {
+      font-size: 16px;
+      padding: 0 13px 0 13px;
+      cursor: pointer;
+      :hover {
+        color: #1677ff;
+        font-size: 18px;
+        font-weight: 800;
+      }
+    }
+    .delete {
+      font-size: 16px;
+      padding: 0 13px 0 13px;
+      cursor: pointer;
+      :hover {
+        color: red;
+        font-size: 18px;
+        font-weight: 800;
+      }
+    }
+    .down {
+      font-size: 16px;
+      cursor: pointer;
+      padding-right: 5px;
+
+      :hover {
+        color: #1677ff;
+        font-size: 18px;
+        font-weight: 800;
+      }
+    }
+  }
+}
